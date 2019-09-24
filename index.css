@@ -1,0 +1,311 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    width: 100%;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+
+.firstimg{
+    width: 100%;
+    position: relative;
+    top:0;
+    left:0;
+
+}
+.secondimg{
+    width: 50%;
+    position: absolute;
+    top:80;
+    left:-12;
+    background-color: rgba(255,255,255, 0.5);
+
+}
+.imgText{
+    position: absolute;
+    top: 225;
+    left:200;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+
+.header1:after{
+ content: " ";
+ display: block;
+ clear: both;
+}
+
+div.logo{
+    
+    background-repeat: no-repeat;
+    width:auto;
+    float: left;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+header nav{
+    float: right;
+}
+
+/* header nav h2{
+   
+    height: 0;
+    margin: 0;
+} */
+
+header nav li{
+    float: left;
+    list-style-type: none;
+    margin: 10px 10px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+.contact{
+    margin-right: 50px;
+    color: #f4f4f4;
+    background-color:#C8122E;
+    font-size: 10px;
+    padding: 8px;
+    border-color: #C8122E;
+}
+
+.div1{
+    margin-top: 10px;
+    width: 100%;
+    height:400px;
+   
+
+}
+
+.div2{
+    margin-top: 210px;
+    padding: 20px;
+    
+}
+.divImg1{
+    max-width: 100%;
+}
+
+.divImg {
+    width: 50%;
+    float: left;
+}
+.divContent {
+width: 50%;
+float: left;
+
+}
+
+.sbtn{
+    background-color: #000;
+    border: none;
+    padding: 12px 18px;
+    text-align: center;
+    color:#fff;
+    
+}
+
+.div2:after{
+    content: " ";
+    display: block;
+    clear: both;
+   }
+
+
+.div3 {
+    background-color: #f4f4f4;
+    display: flex;
+    width: 100%;
+
+}
+
+.part1{
+    width: 50%;
+    float: left;
+}
+.part2{
+    width: 50%;
+    float: left;
+}
+
+
+.one{
+    width: 415px;
+    height: 110px;
+    padding: 20px;
+    background-color: white;
+    margin-left: 120px;
+    margin-top: 75px;
+}
+
+.two {
+    width: 415px;
+    height: 110px;
+    padding: 20px;
+    background-color: #EDAB5E;
+    color: white;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.three {
+    width: 415px;
+    height: 110px;
+    padding: 20px;
+    background-color: white;
+    margin-left: 120px;
+    margin-top: 40px;
+    margin-bottom: 75px;
+}
+
+.one h3{
+    font-weight: bolder;
+}
+
+.three h3{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+/* .prag2{
+    color: #f4f4f4;
+} */
+
+.part2Heading {
+    margin-top: 176px;
+    margin-left: 40px;
+    font-size: 35px;
+    margin-right: 50px;
+}
+.part2Subheading {
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.div4{
+    background-color: #0A1118;
+  }
+  .div4Part1{
+    float:left;
+   color: #fff;
+   
+  
+    text-align: left;
+    overflow: hidden;
+  }
+  .div4Part2{
+    margin-left:50%;
+  }
+  .div4Pic{
+    width: 100%;
+    height: 100%;
+  }
+  .contents2{
+   margin-top:20%;
+    margin-left:30%;
+    }
+
+
+  .tick {
+    vertical-align: middle;
+    position: relative;
+    top:0;
+    left:0;
+   
+  }
+  .div4Head{
+    font-size: 200%;
+  }
+  .text {
+    margin:5px;
+    text-align: left;
+  }
+  ​
+.divImg2{
+    width: 50%;
+    float: left;
+}
+.divContent2 {
+background-color: #0A1118;
+width: 50%;
+float: left;
+}
+
+.divContent2 h3{
+    font-weight: bolder;
+    color: #f4f4f4;
+    
+    font-size: 18px;
+}
+
+.div4:after{
+    content: " ";
+    display: block;
+    clear: both;
+   }
+
+   div.logo1{
+   
+    background-repeat: no-repeat;
+    width:auto;
+    float: left;
+    height: 50px;
+    margin-top: 12px;
+    margin-left: 2%;
+}
+
+div.logo2{
+   
+    margin-left:2%;
+    float: left;
+    margin-top: 20px; 
+}
+div.middleNav{
+    margin-left:6%;
+    float: left;
+    margin-top: 20px;
+}
+
+/* .navFooter{
+    margin-left:3%;
+    float: left;
+} */
+.footer1 nav{
+    float: right;
+}
+
+
+.footer1 nav li{
+    float: left;
+    list-style-type: none;
+    margin: 10px 10px;
+}
+
+.footer1 nav li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+a:hover {
+    color: yellow;
+  }
+
+  button:hover{
+    color: red;
+
+  }
+ 
+div.middleNav:hover {
+    color: yellow;
+  }
